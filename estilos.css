@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* EJERCICIO 1 */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(2, 12, 15);
+    height: 70px;
+    padding: 0 30px;
+}
+
+.logo {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.menu {
+    display: flex;
+    gap: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+/* EJERCICIO 2 */
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.tarjeta {
+    width: 200px;
+    border: 2px solid black;
+    padding: 15px;
+    text-align: center;
+    border-radius: 10px;
+
+}
+.tarjeta button {
+    background-color: rgb(2, 12, 15);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.tarjeta button:hover {
+    background-color: #1c3b47;
+    transform: scale(1.05);
+}
+
+/* EJERCICIO 3 */
+.principal {
+    display: flex;
+    flex-direction: row; /* implícito */
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    padding: 30px;
+}
+
+
+.izquierdo {
+    flex: 2;
+}
+
+.derecho {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.imagen {
+    width: 250px;
+    height: 200px;
+    border: 2px solid black;
+    text-align: center;
+    line-height: 200px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.principal button {
+    background-color: rgb(2, 12, 15);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.principal button:hover {
+    background-color: #1c3b47;
+    transform: scale(1.05);
+}
+
+/* ACTIVIDAD ASIGNADA */
+
+.actividad {
+    display: flex;
+    flex-direction: column; /* diseño vertical */
+    align-items: center;
+    gap: 20px;
+    padding: 30px;
+}
+
+.izquierdo {
+    text-align: center;
+}
+
+.derecho {
+    display: flex;
+    justify-content: center;
+}
+
+.imagen {
+    width: 250px;
+    height: 200px;
+    border: 2px solid black;
+    text-align: center;
+    line-height: 200px;
+    font-weight: bold;
+}
+
+.actividad button {
+    background-color: rgb(2, 12, 15);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.actividad button:hover {
+    background-color: #1c3b47;
+    transform: scale(1.05);
+}
+
+.footer {
+    background-color: rgb(2, 12, 15);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+    font-size: 14px;
+}
